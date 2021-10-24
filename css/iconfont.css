@@ -12,6 +12,11 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.icon-wenjianjia:before {
+  content: "\e601";
+  color: blue;
+  font-size: 22px;
+}
 
 .icon-guidang1:before {
   content: "\e60c";
