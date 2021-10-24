@@ -16,13 +16,31 @@
 .icon-guidang1:before {
   content: "\e60c";
 }
+/* 卡片处小图标 */
+.card_icon {
+  /* 修改颜色 */
+  color: blue;
+  /* 修改大小 */
+  font-size: 20px;
+}
 
 .icon-zhuye:before {
   content: "\e635";
 }
+/* 卡片处小图标 */
+.card_icon {
+  /* 修改颜色 */
+  color: red;
+  /* 修改大小 */
+  font-size: 20px;
+}
 
 .icon-GitHub:before {
   content: "\ea0a";
+}
+/* 卡片处小图标 */                                                     .card_icon {                                                           
+  /* 修改大小 */
+  font-size: 20px;
 }
 
 .icon-dianziyoujian:before {
