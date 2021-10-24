@@ -13,6 +13,10 @@
   -moz-osx-font-smoothing: grayscale;
 }
 
+.icon-coolapk:before {
+  content: "\e66d";
+}
+
 .icon-kuan:before {
   content: "\e8fa";
 }
