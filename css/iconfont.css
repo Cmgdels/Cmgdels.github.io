@@ -15,37 +15,30 @@
 
 .icon-dakaidewenjianjia:before {
   content: "\e60f";
-  font-size: 24px;
 }
 
 .icon-zhuye:before {
   content: "\e635";
-  font-size: 24px;
 }
 
 .icon-GitHub:before {
   content: "\ea0a";
-  font-size: 24px;
 }
 
 .icon-dianziyoujian:before {
   content: "\e643";
-  font-size: 24px;
 }
 
 .icon-biaoqian:before {
   content: "\e671";
-  font-size: 24px;
 }
 
 .icon-zhuti:before {
   content: "\e667";
-  font-size: 24px;
 }
 
 .icon-guidang:before {
   content: "\e6b9";
-  font-size: 24px;
 }
 
 .icon-guanyu:before {
@@ -54,6 +47,5 @@
 
 .icon-youlian:before {
   content: "\e600";
-  font-size: 24px;
 }
 
