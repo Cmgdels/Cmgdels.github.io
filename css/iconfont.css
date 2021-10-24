@@ -1,66 +1,65 @@
 @font-face {
   font-family: "iconfont"; /* Project id 2888616 */
-  src: url('//at.alicdn.com/t/font_2888616_sc32eaaw41.woff2?t=1635084712656') format('woff2'),
-       url('//at.alicdn.com/t/font_2888616_sc32eaaw41.woff?t=1635084712656') format('woff'),
-       url('//at.alicdn.com/t/font_2888616_sc32eaaw41.ttf?t=1635084712656') format('truetype');
+  src: url('//at.alicdn.com/t/font_2888616_fscyy2l37l.woff2?t=1635117366618') format('woff2'),
+       url('//at.alicdn.com/t/font_2888616_fscyy2l37l.woff?t=1635117366618') format('woff'),
+       url('//at.alicdn.com/t/font_2888616_fscyy2l37l.ttf?t=1635117366618') format('truetype');
 }
 
 .iconfont {
   font-family: "iconfont" !important;
-  font-size: 22px;
+  font-size: 16px;
   font-style: normal;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
-.icon-coolapk:before {
-  content: "\e66d";
+.icon-github:before {
+  content: "\e63a";
+  font-size: 22px;
 }
 
 .icon-kuan:before {
   content: "\e8fa";
+  font-size: 22px;
 }
 
 .icon-wenjianjia:before {
   content: "\e601";
-  color: blue;
+  font-size: 22px;
 }
 
 .icon-guidang1:before {
   content: "\e60c";
-  color: orange
+  font-size: 22px;
 }
 
 .icon-zhuye:before {
   content: "\e635";
-  color: red;
-}
-
-.icon-GitHub:before {
-  content: "\ea0a";
+  font-size: 22px;
 }
 
 .icon-dianziyoujian:before {
   content: "\e643";
-  color: blue;
+  font-size: 22px;
 }
 
 .icon-biaoqian:before {
   content: "\e671";
-  color: green;
+  font-size: 22px;
 }
 
 .icon-zhuti:before {
   content: "\e667";
+  font-size: 22px;
 }
 
 .icon-guanyu:before {
   content: "\eb02";
-  color:yellow;
+  font-size: 22px;
 }
 
 .icon-youlian:before {
   content: "\e600";
-  color: orange
+  font-size: 22px;
 }
 
