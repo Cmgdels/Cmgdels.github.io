@@ -16,13 +16,13 @@
 .icon-guidang1:before {
   content: "\e60c";
   color: blue;
-  font-size: 19px;
+  font-size: 22px;
 }
 
 .icon-zhuye:before {
   content: "\e635";
-  color: red
-  font-size: 19px;
+  color: red;
+  font-size: 22px;
 }
 
 .icon-GitHub:before {
