@@ -27,29 +27,36 @@
 
 .icon-GitHub:before {
   content: "\ea0a";
-}
-/* 卡片处小图标 */                                                     .card_icon {                                                           
-  /* 修改大小 */
-  font-size: 20px;
+  font-size: 22px;
 }
 
 .icon-dianziyoujian:before {
   content: "\e643";
+  color: blue;
+  font-size: 22px;
 }
 
 .icon-biaoqian:before {
   content: "\e671";
+  color: green;
+  font-size: 22px;
 }
 
 .icon-zhuti:before {
   content: "\e667";
+  color: red;
+  font-size: 22px;
 }
 
 .icon-guanyu:before {
   content: "\eb02";
+  color: yellow;
+  font-size: 22px;
 }
 
 .icon-youlian:before {
   content: "\e600";
+  color: orange;
+  font-size: 22px;
 }
 	
