@@ -1,47 +1,59 @@
-@字体脸{
-  字体系列：“iconfont”；/* 项目编号 2888616 */
-  src: url('//at.alicdn.com/t/font_2888616_ermmnlp7kzi.woff2?t=1635031216336') 格式('woff2'),
-       url('//at.alicdn.com/t/font_2888616_ermmnlp7kzi.woff?t=1635031216336') 格式('woff'),
-       url('//at.alicdn.com/t/font_2888616_ermmnlp7kzi.ttf?t=1635031216336') 格式('truetype');
+@font-face {
+  font-family: "iconfont"; /* Project id 2888616 */
+  src: url('//at.alicdn.com/t/font_2888616_4crabryr3gj.woff2?t=1635055496629') format('woff2'),
+       url('//at.alicdn.com/t/font_2888616_4crabryr3gj.woff?t=1635055496629') format('woff'),
+       url('//at.alicdn.com/t/font_2888616_4crabryr3gj.ttf?t=1635055496629') format('truetype');
 }
 
 .iconfont {
-  字体系列：“iconfont”！重要；
-  字体大小：16px；
-  字体样式：正常；
-  -webkit-font-smoothing：抗锯齿；
-  -moz-osx-font-smoothing：灰度；
+  font-family: "iconfont" !important;
+  font-size: 16px;
+  font-style: normal;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-dakaidewenjianjia:before {
+  content: "\e60f";
+  font-size: 24px;
 }
 
 .icon-zhuye:before {
-  内容：“\e635”；
+  content: "\e635";
+  font-size: 24px;
 }
 
 .icon-GitHub:before {
-  内容：“\ea0a”；
+  content: "\ea0a";
+  font-size: 24px;
 }
 
 .icon-dianziyoujian:before {
-  内容：“\e643”；
+  content: "\e643";
+  font-size: 24px;
 }
 
 .icon-biaoqian:before {
-  内容：“\e671”；
+  content: "\e671";
+  font-size: 24px;
 }
 
 .icon-zhuti:before {
-  内容：“\e667”；
+  content: "\e667";
+  font-size: 24px;
 }
 
-.icon-guidang：之前{
-  内容：“\e6b9”；
+.icon-guidang:before {
+  content: "\e6b9";
+  font-size: 24px;
 }
 
 .icon-guanyu:before {
-  内容：“\eb02”；
+  content: "\eb02";
 }
 
 .icon-youlian:before {
-  内容：“\e600”；
+  content: "\e600";
+  font-size: 24px;
 }
 
