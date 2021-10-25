@@ -12,6 +12,10 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+.icon-coolapk1:before {
+  content: "\e617";
+  font-size: 22px;
+}
 
 .icon-coolapk:before {
   content: "\e602";
