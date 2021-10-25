@@ -15,6 +15,7 @@
 
 .icon-coolapk:before {
   content: "\e602";
+  font-size: 22px;
 }
 
 .icon-github:before {
