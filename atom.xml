@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Cmgdels&#39;s Blog</title>
+  <icon>https://www.cmgdels.tk/icon.png</icon>
+  <subtitle>分享我的笔记</subtitle>
+  <link href="https://www.cmgdels.tk/atom.xml" rel="self"/>
+  
+  <link href="https://www.cmgdels.tk/"/>
+  <updated>2021-10-25T06:28:57.058Z</updated>
+  <id>https://www.cmgdels.tk/</id>
+  
+  <author>
+    <name>Cmgdels</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>学习笔记：Termux更改启动问候语以及换源</title>
+    <link href="https://www.cmgdels.tk/2021/10/25/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%9ATermux%E6%9B%B4%E6%94%B9%E5%90%AF%E5%8A%A8%E9%97%AE%E5%80%99%E8%AF%AD/"/>
+    <id>https://www.cmgdels.tk/2021/10/25/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%9ATermux%E6%9B%B4%E6%94%B9%E5%90%AF%E5%8A%A8%E9%97%AE%E5%80%99%E8%AF%AD/</id>
+    <published>2021-10-25T06:06:58.000Z</published>
+    <updated>2021-10-25T06:28:57.058Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Termux" scheme="https://www.cmgdels.tk/categories/Termux/"/>
+    
+    
+    <category term="termux" scheme="https://www.cmgdels.tk/tags/termux/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>教程：Termux配置oh-my-zsh</title>
+    <link href="https://www.cmgdels.tk/2021/10/24/%E6%95%99%E7%A8%8B%EF%BC%9ATermux%E9%85%8D%E7%BD%AEoh-my-zsh/"/>
+    <id>https://www.cmgdels.tk/2021/10/24/%E6%95%99%E7%A8%8B%EF%BC%9ATermux%E9%85%8D%E7%BD%AEoh-my-zsh/</id>
+    <published>2021-10-24T04:33:22.000Z</published>
+    <updated>2021-10-25T06:01:52.418Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="Termux" scheme="https://www.cmgdels.tk/categories/Termux/"/>
+    
+    
+    <category term="termux" scheme="https://www.cmgdels.tk/tags/termux/"/>
+    
+    <category term="oh-my-zsh" scheme="https://www.cmgdels.tk/tags/oh-my-zsh/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>学习笔记：把hexo部署在GitHub</title>
+    <link href="https://www.cmgdels.tk/2021/10/24/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%9A%E6%8A%8Ahexo%E9%83%A8%E7%BD%B2%E5%9C%A8GitHub/"/>
+    <id>https://www.cmgdels.tk/2021/10/24/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%9A%E6%8A%8Ahexo%E9%83%A8%E7%BD%B2%E5%9C%A8GitHub/</id>
+    <published>2021-10-24T00:20:53.000Z</published>
+    <updated>2021-10-24T04:43:10.930Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="web" scheme="https://www.cmgdels.tk/categories/web/"/>
+    
+    
+    <category term="termux" scheme="https://www.cmgdels.tk/tags/termux/"/>
+    
+    <category term="github" scheme="https://www.cmgdels.tk/tags/github/"/>
+    
+    <category term="hexo" scheme="https://www.cmgdels.tk/tags/hexo/"/>
+    
+    <category term="ssh" scheme="https://www.cmgdels.tk/tags/ssh/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>学习笔记：hexo+github搭建博客(termux)</title>
+    <link href="https://www.cmgdels.tk/2021/10/24/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%9Ahexo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/"/>
+    <id>https://www.cmgdels.tk/2021/10/24/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%9Ahexo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</id>
+    <published>2021-10-24T00:02:19.000Z</published>
+    <updated>2021-10-24T04:43:27.530Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="web" scheme="https://www.cmgdels.tk/categories/web/"/>
+    
+    <category term="Termux" scheme="https://www.cmgdels.tk/categories/web/Termux/"/>
+    
+    
+    <category term="termux" scheme="https://www.cmgdels.tk/tags/termux/"/>
+    
+    <category term="github" scheme="https://www.cmgdels.tk/tags/github/"/>
+    
+    <category term="hexo" scheme="https://www.cmgdels.tk/tags/hexo/"/>
+    
+  </entry>
+  
+</feed>
