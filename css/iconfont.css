@@ -12,6 +12,12 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+
+.icon-QQ-circle-fill:before {
+  content: "\e887";
+  font-size: 22px;
+}
+
 .icon-coolapk1:before {
   content: "\e617";
   font-size: 22px;
