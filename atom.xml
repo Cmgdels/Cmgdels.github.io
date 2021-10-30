@@ -116,13 +116,13 @@
     <category term="web" scheme="https://www.cmgdels.tk/categories/web/"/>
     
     
+    <category term="termux" scheme="https://www.cmgdels.tk/tags/termux/"/>
+    
     <category term="github" scheme="https://www.cmgdels.tk/tags/github/"/>
     
     <category term="hexo" scheme="https://www.cmgdels.tk/tags/hexo/"/>
     
     <category term="ssh" scheme="https://www.cmgdels.tk/tags/ssh/"/>
-    
-    <category term="termux" scheme="https://www.cmgdels.tk/tags/termux/"/>
     
   </entry>
   
@@ -149,11 +149,11 @@
     <category term="Termux" scheme="https://www.cmgdels.tk/categories/web/Termux/"/>
     
     
+    <category term="termux" scheme="https://www.cmgdels.tk/tags/termux/"/>
+    
     <category term="github" scheme="https://www.cmgdels.tk/tags/github/"/>
     
     <category term="hexo" scheme="https://www.cmgdels.tk/tags/hexo/"/>
-    
-    <category term="termux" scheme="https://www.cmgdels.tk/tags/termux/"/>
     
   </entry>
   
