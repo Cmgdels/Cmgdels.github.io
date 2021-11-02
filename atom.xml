@@ -6,7 +6,7 @@
   <link href="https://www.cmgdels.tk/atom.xml" rel="self"/>
   
   <link href="https://www.cmgdels.tk/"/>
-  <updated>2021-10-30T03:48:20.180Z</updated>
+  <updated>2021-11-02T22:43:39.000Z</updated>
   <id>https://www.cmgdels.tk/</id>
   
   <author>
@@ -21,14 +21,14 @@
     <link href="https://www.cmgdels.tk/2021/10/30/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%9Agit%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C/"/>
     <id>https://www.cmgdels.tk/2021/10/30/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%9Agit%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C/</id>
     <published>2021-10-29T22:27:19.000Z</published>
-    <updated>2021-10-30T03:48:20.180Z</updated>
+    <updated>2021-11-02T22:43:39.000Z</updated>
     
     
       
       
         
         
-    <summary type="html">&lt;h2 id=&quot;1-push&quot;&gt;&lt;a href=&quot;#1-push&quot; class=&quot;headerlink&quot; title=&quot;1. push&quot;&gt;&lt;/a&gt;1. push&lt;/h2&gt;&lt;h3 id=&quot;1-1-准备工作&quot;&gt;&lt;a href=&quot;#1-1-准备工作&quot;</summary>
+    <summary type="html">&lt;h2 id=&quot;1-准备仓库&quot;&gt;&lt;a href=&quot;#1-准备仓库&quot; class=&quot;headerlink&quot; title=&quot;1. 准备仓库&quot;&gt;&lt;/a&gt;1.</summary>
         
       
     
@@ -116,13 +116,13 @@
     <category term="web" scheme="https://www.cmgdels.tk/categories/web/"/>
     
     
+    <category term="termux" scheme="https://www.cmgdels.tk/tags/termux/"/>
+    
     <category term="github" scheme="https://www.cmgdels.tk/tags/github/"/>
     
     <category term="hexo" scheme="https://www.cmgdels.tk/tags/hexo/"/>
     
     <category term="ssh" scheme="https://www.cmgdels.tk/tags/ssh/"/>
-    
-    <category term="termux" scheme="https://www.cmgdels.tk/tags/termux/"/>
     
   </entry>
   
@@ -149,11 +149,11 @@
     <category term="Termux" scheme="https://www.cmgdels.tk/categories/web/Termux/"/>
     
     
+    <category term="termux" scheme="https://www.cmgdels.tk/tags/termux/"/>
+    
     <category term="github" scheme="https://www.cmgdels.tk/tags/github/"/>
     
     <category term="hexo" scheme="https://www.cmgdels.tk/tags/hexo/"/>
-    
-    <category term="termux" scheme="https://www.cmgdels.tk/tags/termux/"/>
     
   </entry>
   
