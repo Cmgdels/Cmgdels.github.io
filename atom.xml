@@ -6,7 +6,7 @@
   <link href="https://www.cmgdels.tk/atom.xml" rel="self"/>
   
   <link href="https://www.cmgdels.tk/"/>
-  <updated>2021-11-02T22:43:39.000Z</updated>
+  <updated>2021-11-06T23:16:23.990Z</updated>
   <id>https://www.cmgdels.tk/</id>
   
   <author>
@@ -17,11 +17,44 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>学习笔记：requests基本使用上</title>
+    <link href="https://www.cmgdels.tk/2021/11/07/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%9Arequests%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8%E4%B8%8A/"/>
+    <id>https://www.cmgdels.tk/2021/11/07/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%9Arequests%E5%9F%BA%E6%9C%AC%E4%BD%BF%E7%94%A8%E4%B8%8A/</id>
+    <published>2021-11-06T23:14:11.000Z</published>
+    <updated>2021-11-06T23:16:23.990Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;h2 id=&quot;1-基础用法&quot;&gt;&lt;a href=&quot;#1-基础用法&quot; class=&quot;headerlink&quot; title=&quot;1 基础用法&quot;&gt;&lt;/a&gt;1 基础用法&lt;/h2&gt;&lt;h3 id=&quot;1-1-实例导入&quot;&gt;&lt;a href=&quot;#1-1-实例导入&quot; class=&quot;headerlink&quot;</summary>
+        
+      
+    
+    
+    
+    <category term="web" scheme="https://www.cmgdels.tk/categories/web/"/>
+    
+    <category term="Python" scheme="https://www.cmgdels.tk/categories/web/Python/"/>
+    
+    <category term="网络爬虫" scheme="https://www.cmgdels.tk/categories/web/Python/%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%AB/"/>
+    
+    
+    <category term="Pytyon" scheme="https://www.cmgdels.tk/tags/Pytyon/"/>
+    
+    <category term="网络爬虫" scheme="https://www.cmgdels.tk/tags/%E7%BD%91%E7%BB%9C%E7%88%AC%E8%99%AB/"/>
+    
+    <category term="requests" scheme="https://www.cmgdels.tk/tags/requests/"/>
+    
+  </entry>
+  
+  <entry>
     <title>学习笔记：git常用操作指南</title>
     <link href="https://www.cmgdels.tk/2021/10/30/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%9Agit%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C/"/>
     <id>https://www.cmgdels.tk/2021/10/30/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%9Agit%E5%B8%B8%E7%94%A8%E6%93%8D%E4%BD%9C/</id>
     <published>2021-10-29T22:27:19.000Z</published>
-    <updated>2021-11-02T22:43:39.000Z</updated>
+    <updated>2021-11-02T22:43:38.000Z</updated>
     
     
       
@@ -48,7 +81,7 @@
     <link href="https://www.cmgdels.tk/2021/10/25/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%9ATermux%E6%9B%B4%E6%94%B9%E5%90%AF%E5%8A%A8%E9%97%AE%E5%80%99%E8%AF%AD/"/>
     <id>https://www.cmgdels.tk/2021/10/25/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%9ATermux%E6%9B%B4%E6%94%B9%E5%90%AF%E5%8A%A8%E9%97%AE%E5%80%99%E8%AF%AD/</id>
     <published>2021-10-25T06:06:58.000Z</published>
-    <updated>2021-10-25T06:28:57.058Z</updated>
+    <updated>2021-10-25T06:28:57.000Z</updated>
     
     
       
@@ -73,7 +106,7 @@
     <link href="https://www.cmgdels.tk/2021/10/24/%E6%95%99%E7%A8%8B%EF%BC%9ATermux%E9%85%8D%E7%BD%AEoh-my-zsh/"/>
     <id>https://www.cmgdels.tk/2021/10/24/%E6%95%99%E7%A8%8B%EF%BC%9ATermux%E9%85%8D%E7%BD%AEoh-my-zsh/</id>
     <published>2021-10-24T04:33:22.000Z</published>
-    <updated>2021-10-27T14:23:51.610Z</updated>
+    <updated>2021-10-27T14:23:51.000Z</updated>
     
     
       
@@ -100,7 +133,7 @@
     <link href="https://www.cmgdels.tk/2021/10/24/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%9A%E6%8A%8Ahexo%E9%83%A8%E7%BD%B2%E5%9C%A8GitHub/"/>
     <id>https://www.cmgdels.tk/2021/10/24/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%9A%E6%8A%8Ahexo%E9%83%A8%E7%BD%B2%E5%9C%A8GitHub/</id>
     <published>2021-10-24T00:20:53.000Z</published>
-    <updated>2021-10-27T14:24:15.820Z</updated>
+    <updated>2021-10-27T14:24:15.000Z</updated>
     
     
       
@@ -131,7 +164,7 @@
     <link href="https://www.cmgdels.tk/2021/10/24/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%9Ahexo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/"/>
     <id>https://www.cmgdels.tk/2021/10/24/%E5%AD%A6%E4%B9%A0%E7%AC%94%E8%AE%B0%EF%BC%9Ahexo-github%E6%90%AD%E5%BB%BA%E5%8D%9A%E5%AE%A2/</id>
     <published>2021-10-24T00:02:19.000Z</published>
-    <updated>2021-10-27T14:23:31.610Z</updated>
+    <updated>2021-10-27T14:23:31.000Z</updated>
     
     
       
