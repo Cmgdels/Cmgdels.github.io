@@ -19,23 +19,30 @@
 
 <script class="next-config" data-name="main" type="application/json">{"hostname":"cmgdels.top","root":"/","images":"/images","scheme":"Muse","darkmode":false,"version":"8.19.1","exturl":false,"sidebar":{"position":"left","display":"post","padding":18,"offset":12},"copycode":{"enable":false,"style":null},"fold":{"enable":false,"height":500},"bookmark":{"enable":false,"color":"#222","save":"auto"},"mediumzoom":false,"lazyload":false,"pangu":false,"comments":{"style":"tabs","active":null,"storage":true,"lazyload":false,"nav":null},"stickytabs":false,"motion":{"enable":true,"async":false,"transition":{"menu_item":"fadeInDown","post_block":"fadeIn","post_header":"fadeInDown","post_body":"fadeInDown","coll_header":"fadeInLeft","sidebar":"fadeInUp"}},"i18n":{"placeholder":"搜索...","empty":"没有找到任何搜索结果：${query}","hits_time":"找到 ${hits} 个搜索结果（用时 ${time} 毫秒）","hits":"找到 ${hits} 个搜索结果"}}</script><script src="/js/config.js"></script>
 
-    <meta property="og:type" content="website">
-<meta property="og:title" content="Cmgdels的小站">
-<meta property="og:url" content="http://cmgdels.top/index.html">
+    <meta name="description" content="1. 下载安装包1wget https:&#x2F;&#x2F;download.oracle.com&#x2F;java&#x2F;17&#x2F;latest&#x2F;jdk-17_linux-x64_bin.tar.gz  2. 解压安装包1tar -zxvf jdk-17_linux-x64_bin.tar.gz  3. 把jdk转移到&#x2F;usr&#x2F;local&#x2F;目录下1mv [解压得到的文件夹名称] &#x2F;usr&#x2F;local">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Ubuntu下安装jdk17">
+<meta property="og:url" content="http://cmgdels.top/2024/02/21/Ubuntu%E4%B8%8B%E5%AE%89%E8%A3%85jdk17/index.html">
 <meta property="og:site_name" content="Cmgdels的小站">
+<meta property="og:description" content="1. 下载安装包1wget https:&#x2F;&#x2F;download.oracle.com&#x2F;java&#x2F;17&#x2F;latest&#x2F;jdk-17_linux-x64_bin.tar.gz  2. 解压安装包1tar -zxvf jdk-17_linux-x64_bin.tar.gz  3. 把jdk转移到&#x2F;usr&#x2F;local&#x2F;目录下1mv [解压得到的文件夹名称] &#x2F;usr&#x2F;local">
 <meta property="og:locale" content="zh_CN">
+<meta property="og:image" content="http://cmgdels.top/%5Bhttps:/s11.ax1x.com/2024/02/21/pFtaiwD.png%5D">
+<meta property="article:published_time" content="2024-02-21T06:53:04.000Z">
+<meta property="article:modified_time" content="2024-02-21T07:18:48.455Z">
 <meta property="article:author" content="Cmgdels">
+<meta property="article:tag" content="Linux">
 <meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="http://cmgdels.top/%5Bhttps:/s11.ax1x.com/2024/02/21/pFtaiwD.png%5D">
 
 
-<link rel="canonical" href="http://cmgdels.top/">
+<link rel="canonical" href="http://cmgdels.top/2024/02/21/Ubuntu%E4%B8%8B%E5%AE%89%E8%A3%85jdk17/">
 
 
 
-<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":true,"isPost":false,"lang":"zh-CN","comments":"","permalink":"","path":"index.html","title":""}</script>
+<script class="next-config" data-name="page" type="application/json">{"sidebar":"","isHome":false,"isPost":true,"lang":"zh-CN","comments":true,"permalink":"http://cmgdels.top/2024/02/21/Ubuntu%E4%B8%8B%E5%AE%89%E8%A3%85jdk17/","path":"2024/02/21/Ubuntu下安装jdk17/","title":"Ubuntu下安装jdk17"}</script>
 
 <script class="next-config" data-name="calendar" type="application/json">""</script>
-<title>Cmgdels的小站</title>
+<title>Ubuntu下安装jdk17 | Cmgdels的小站</title>
   
 
 
@@ -65,7 +72,7 @@
 
     <a href="/" class="brand" rel="start">
       <i class="logo-line"></i>
-      <h1 class="site-title">Cmgdels的小站</h1>
+      <p class="site-title">Cmgdels的小站</p>
       <i class="logo-line"></i>
     </a>
       <p class="site-subtitle" itemprop="description">分享技术</p>
@@ -88,7 +95,7 @@
   
   <aside class="sidebar">
 
-    <div class="sidebar-inner sidebar-overview-active">
+    <div class="sidebar-inner sidebar-nav-active sidebar-toc-active">
       <ul class="sidebar-nav">
         <li class="sidebar-nav-toc">
           文章目录
@@ -101,6 +108,7 @@
       <div class="sidebar-panel-container">
         <!--noindex-->
         <div class="post-toc-wrap sidebar-panel">
+            <div class="post-toc animated"><ol class="nav"><li class="nav-item nav-level-3"><a class="nav-link" href="#1-%E4%B8%8B%E8%BD%BD%E5%AE%89%E8%A3%85%E5%8C%85"><span class="nav-number">1.</span> <span class="nav-text">1. 下载安装包</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#2-%E8%A7%A3%E5%8E%8B%E5%AE%89%E8%A3%85%E5%8C%85"><span class="nav-number">2.</span> <span class="nav-text">2. 解压安装包</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#3-%E6%8A%8Ajdk%E8%BD%AC%E7%A7%BB%E5%88%B0-usr-local-%E7%9B%AE%E5%BD%95%E4%B8%8B"><span class="nav-number">3.</span> <span class="nav-text">3. 把jdk转移到&#x2F;usr&#x2F;local&#x2F;目录下</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#4-%E9%85%8D%E7%BD%AE%E7%8E%AF%E5%A2%83%E5%8F%98%E9%87%8F"><span class="nav-number">4.</span> <span class="nav-text">4. 配置环境变量</span></a></li><li class="nav-item nav-level-3"><a class="nav-link" href="#5-%E6%B5%8B%E8%AF%95"><span class="nav-number">5.</span> <span class="nav-text">5. 测试</span></a></li></ol></div>
         </div>
         <!--/noindex-->
 
@@ -138,16 +146,17 @@
 
     </div>
 
-    <div class="main-inner index posts-expand">
+    <div class="main-inner post posts-expand">
 
-    
+
+  
 
 
 <div class="post-block">
   
   
 
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
+  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="zh-CN">
     <link itemprop="mainEntityOfPage" href="http://cmgdels.top/2024/02/21/Ubuntu%E4%B8%8B%E5%AE%89%E8%A3%85jdk17/">
 
     <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
@@ -161,13 +170,13 @@
     </span>
 
     <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | Cmgdels的小站">
+      <meta itemprop="name" content="Ubuntu下安装jdk17 | Cmgdels的小站">
       <meta itemprop="description" content="">
     </span>
       <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2024/02/21/Ubuntu%E4%B8%8B%E5%AE%89%E8%A3%85jdk17/" class="post-title-link" itemprop="url">Ubuntu下安装jdk17</a>
-        </h2>
+        <h1 class="post-title" itemprop="name headline">
+          Ubuntu下安装jdk17
+        </h1>
 
         <div class="post-meta-container">
           <div class="post-meta">
@@ -199,114 +208,47 @@
     
     
     
-    <div class="post-body" itemprop="articleBody">
-          <h3 id="1-下载安装包"><a href="#1-下载安装包" class="headerlink" title="1. 下载安装包"></a>1. 下载安装包</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget https://download.oracle.com/java/17/latest/jdk-17_linux-x64_bin.tar.gz</span><br></pre></td></tr></table></figure>
+    <div class="post-body" itemprop="articleBody"><h3 id="1-下载安装包"><a href="#1-下载安装包" class="headerlink" title="1. 下载安装包"></a>1. 下载安装包</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">wget https://download.oracle.com/java/17/latest/jdk-17_linux-x64_bin.tar.gz</span><br></pre></td></tr></table></figure>
 
 <h3 id="2-解压安装包"><a href="#2-解压安装包" class="headerlink" title="2. 解压安装包"></a>2. 解压安装包</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">tar -zxvf jdk-17_linux-x64_bin.tar.gz</span><br></pre></td></tr></table></figure>
 
 <h3 id="3-把jdk转移到-usr-local-目录下"><a href="#3-把jdk转移到-usr-local-目录下" class="headerlink" title="3. 把jdk转移到&#x2F;usr&#x2F;local&#x2F;目录下"></a>3. 把jdk转移到&#x2F;usr&#x2F;local&#x2F;目录下</h3><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">mv [解压得到的文件夹名称] /usr/local/</span><br></pre></td></tr></table></figure>
-          <!--noindex-->
-            <div class="post-button">
-              <a class="btn" href="/2024/02/21/Ubuntu%E4%B8%8B%E5%AE%89%E8%A3%85jdk17/#more" rel="contents">
-                阅读全文 &raquo;
-              </a>
-            </div>
-          <!--/noindex-->
+<span id="more"></span>
+<h3 id="4-配置环境变量"><a href="#4-配置环境变量" class="headerlink" title="4. 配置环境变量"></a>4. 配置环境变量</h3><p>打开 &#x2F;etc&#x2F;profile，在文件最后添加以下内容</p>
+<figure class="highlight shell"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">export JAVA_HOME=/usr/local/[解压得到的文件夹名称]</span><br><span class="line">export CLASSPATH=.:$JAVA_HOME/lib</span><br><span class="line">export PATH=.:$JAVA_HOME/bin:$JAVA_HOME/lib:$PATH</span><br></pre></td></tr></table></figure>
+
+<p>然后应用配置</p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">source</span> /etc/profile</span><br></pre></td></tr></table></figure>
+
+<h3 id="5-测试"><a href="#5-测试" class="headerlink" title="5. 测试"></a>5. 测试</h3><p>输入<code>java -version</code>，如果出现下图类似信息，则为安装成功</p>
+<p><img src="/%5Bhttps:/s11.ax1x.com/2024/02/21/pFtaiwD.png%5D"></p>
+
+    </div>
+
+    
+    
+    
+
+    <footer class="post-footer">
+          <div class="post-tags">
+              <a href="/tags/Linux/" rel="tag"># Linux</a>
+          </div>
+
         
-      
-    </div>
 
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
+          <div class="post-nav">
+            <div class="post-nav-item">
+                <a href="/2024/02/21/hello-world/" rel="prev" title="Hello World">
+                  <i class="fa fa-angle-left"></i> Hello World
+                </a>
+            </div>
+            <div class="post-nav-item">
+            </div>
+          </div>
     </footer>
   </article>
 </div>
 
-
-
-
-    
-
-
-<div class="post-block">
-  
-  
-
-  <article itemscope itemtype="http://schema.org/Article" class="post-content" lang="">
-    <link itemprop="mainEntityOfPage" href="http://cmgdels.top/2024/02/21/hello-world/">
-
-    <span hidden itemprop="author" itemscope itemtype="http://schema.org/Person">
-      <meta itemprop="image" content="/images/avatar.gif">
-      <meta itemprop="name" content="Cmgdels">
-    </span>
-
-    <span hidden itemprop="publisher" itemscope itemtype="http://schema.org/Organization">
-      <meta itemprop="name" content="Cmgdels的小站">
-      <meta itemprop="description" content="">
-    </span>
-
-    <span hidden itemprop="post" itemscope itemtype="http://schema.org/CreativeWork">
-      <meta itemprop="name" content="undefined | Cmgdels的小站">
-      <meta itemprop="description" content="">
-    </span>
-      <header class="post-header">
-        <h2 class="post-title" itemprop="name headline">
-          <a href="/2024/02/21/hello-world/" class="post-title-link" itemprop="url">Hello World</a>
-        </h2>
-
-        <div class="post-meta-container">
-          <div class="post-meta">
-    <span class="post-meta-item">
-      <span class="post-meta-item-icon">
-        <i class="far fa-calendar"></i>
-      </span>
-      <span class="post-meta-item-text">发表于</span>
-
-      <time title="创建时间：2024-02-21 03:32:46" itemprop="dateCreated datePublished" datetime="2024-02-21T03:32:46+00:00">2024-02-21</time>
-    </span>
-
-  
-</div>
-
-        </div>
-      </header>
-
-    
-    
-    
-    <div class="post-body" itemprop="articleBody">
-          <p>Welcome to <a target="_blank" rel="noopener" href="https://hexo.io/">Hexo</a>! This is your very first post. Check <a target="_blank" rel="noopener" href="https://hexo.io/docs/">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a target="_blank" rel="noopener" href="https://hexo.io/docs/troubleshooting.html">troubleshooting</a> or you can ask me on <a target="_blank" rel="noopener" href="https://github.com/hexojs/hexo/issues">GitHub</a>.</p>
-<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/writing.html">Writing</a></p>
-<h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo server</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/server.html">Server</a></p>
-<h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo generate</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/generating.html">Generating</a></p>
-<h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo deploy</span><br></pre></td></tr></table></figure>
-
-<p>More info: <a target="_blank" rel="noopener" href="https://hexo.io/docs/one-command-deployment.html">Deployment</a></p>
-
-      
-    </div>
-
-    
-    
-    
-
-    <footer class="post-footer">
-        <div class="post-eof"></div>
-      
-    </footer>
-  </article>
-</div>
 
 
 
