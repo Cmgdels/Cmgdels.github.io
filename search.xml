@@ -1,6 +1,25 @@
 <?xml version="1.0" encoding="utf-8"?>
 <search>
   <entry>
+    <title>Hexo添加第二个type时报错duplicated_mapping_key</title>
+    <url>/posts/2402.html</url>
+    <content><![CDATA[<p>在博客配置文件<code>_config.yml</code>中<code>deploy</code>中添加第二个<code>type</code>的时候出现了以下报错：</p>
+<p><a href="https://imgse.com/i/pFNBI00"><img src="https://s11.ax1x.com/2024/02/22/pFNBI00.png" alt="pFNBI00.png"></a></p>
+<span id="more"></span>
+
+<p>提示<code>YAMLException: duplicated mapping key</code>，这是因为填写的格式不对，应该在每一个type前面加上<code>-</code>，正确格式如下：</p>
+<figure class="highlight yaml"><table><tr><td class="code"><pre><span class="line"><span class="attr">deploy:</span></span><br><span class="line"><span class="bullet">-</span> <span class="attr">type:</span> <span class="string">&#x27;git&#x27;</span></span><br><span class="line">  <span class="attr">repo:</span> <span class="string">git@github.com:xxxxxx/xxxxxx.github.io.git</span></span><br><span class="line">  <span class="attr">branch:</span> <span class="string">main</span></span><br><span class="line"><span class="bullet">-</span> <span class="attr">type:</span> <span class="string">&#x27;baidu_url_submitter&#x27;</span></span><br><span class="line"></span><br></pre></td></tr></table></figure>
+
+<p>重新<code>hexo clean &amp;&amp; hexo g &amp;&amp; hexo d</code>，报错消失</p>
+]]></content>
+      <categories>
+        <category>Hexo</category>
+      </categories>
+      <tags>
+        <tag>Hexo</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Ubuntu下安装jdk17</title>
     <url>/posts/d61a.html</url>
     <content><![CDATA[<h3 id="1-下载安装包"><a href="#1-下载安装包" class="headerlink" title="1. 下载安装包"></a>1. 下载安装包</h3><figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">wget https://download.oracle.com/java/17/latest/jdk-17_linux-x64_bin.tar.gz</span><br></pre></td></tr></table></figure>

@@ -2,6 +2,15 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://cmgdels.top/posts/2402.html</loc>
+    
+    <lastmod>2024-02-22</lastmod>
+    
+    <changefreq>monthly</changefreq>
+    <priority>0.6</priority>
+  </url>
+  
+  <url>
     <loc>http://cmgdels.top/posts/d61a.html</loc>
     
     <lastmod>2024-02-21</lastmod>
@@ -38,6 +47,13 @@
 
   
   <url>
+    <loc>http://cmgdels.top/tags/Hexo/</loc>
+    <lastmod>2024-02-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
     <loc>http://cmgdels.top/tags/Linux/</loc>
     <lastmod>2024-02-22</lastmod>
     <changefreq>weekly</changefreq>
@@ -52,6 +68,13 @@
   </url>
   
 
+  
+  <url>
+    <loc>http://cmgdels.top/categories/Hexo/</loc>
+    <lastmod>2024-02-22</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
   
   <url>
     <loc>http://cmgdels.top/categories/Linux/</loc>
